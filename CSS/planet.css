@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+}
+
+.m30{
+    margin-top: 30px;
+}
+
+.m10{
+    margin-bottom: 20px;
+}
+
+#title_main {
+    text-align: center!important;
+    color: black;
+    margin-top: 15px;
+}
+
+#title-sub_main{
+    text-align: center!important;
+    color: black;
+    margin-top: -10px; 
+    font-size: 25px;
+}
+
+/*Nav*/
+.nav-link{
+    color: white;
+}
+
+.bg-light{
+    background-color: #343a40!important;
+}
+
+.nav-link{
+    color: white!important;
+}
+
+.nav-link:hover{
+    color: #457b9d!important;
+}
+
+.paragraph{
+   font-size: 23px;
+   color: black;
+}
+
+.imagen .a_imagen {
+    padding: 3px;
+    background-color: #adb5bd;
+    border: 1px solid #cccc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px black;
+    z-index: -10000;
+    float: right;
+}
+
+.letra_negra {
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+}
+
+.numero_estilos {
+    color: black;
+    font-weight: bold;
+}
+
+.grid-item {
+    padding: 1px;
+    font-size: 30px;
+    text-align: center;
+}
