@@ -57,3 +57,80 @@ body{
     font-size: 30px;
     text-align: center;
  }
+
+ #age{
+    width: 35%; 
+    background: white;
+    padding: 6px;
+    border-radius: 8px;
+   border: 2px solid black;
+   font-size: 15px
+ }
+
+ .letras{
+    font-size: 25px;
+    color: black;
+    text-shadow: 0px 0px 3px black;
+ }
+
+ #calculate{
+    width: 30%;
+    background: rgb(48, 48, 150);
+    border: none;
+    padding: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+   margin-left: 100px;
+}
+
+#calculate:hover{
+transition: all 0.5s;
+background: green;
+cursor: pointer;
+border-radius: 8px;
+}
+
+#btn_clear{
+ width: 30%;
+ background: red;
+ border: none;
+ padding: 6px;
+ color: white;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+#btn_clear:hover{
+ transition: all 1.2s;
+ background: green;
+ cursor: pointer;
+ border-radius: 8px;
+}
+
+.Result{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;
+ }
+ 
+ .resul_class{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;
+ }
+
+ .grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
