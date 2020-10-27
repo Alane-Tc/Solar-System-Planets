@@ -10,34 +10,29 @@ window.addEventListener("load", function () {
     var calculate_urano = document.querySelector("#urano_age");
     var calculate_neptune = document.querySelector("#neptuno_age");
     var calculate_pluto = document.querySelector("#pluton_age");
-
+    //------------------------------------------------------------------
     //Planets
-    let mercury = parseFloat(87);
-    let venus = parseFloat(225);
-    let earth = 365;
-    let mars = 687;
-    let jupiter = 12; //0.084
-    let saturn = 29.46;
-    let uranus = 84.01;
-    let neptune = 164.79;
-    let plute = 248.59;
-
-    Math.trunc(mercury);
-
-
-
+    let mercury = 4.19;
+    let venus = 1.62;
+    let mars = 0.53;
+    let jupiter = 0.084
+    let saturn = 0.034;
+    let uranus = 0.012;
+    let neptune = 0.006;
+    let plute = 0.004032;
+    //---------------------------------------------------------------
     calculate_mercury.innerHTML = "0 " + "Años";
     calculate_venus.innerHTML = "0 " + "Años";
     calculate_earth.innerHTML = "0 " + "Años";
     calculate_mars.innerHTML = "0 " + "Años";
-    calculate_jupiter.innerHTML = "00 " + "Años";
+    calculate_jupiter.innerHTML = "0 " + "Años";
     calculate_saturno.innerHTML = "0 " + "Años";
     calculate_urano.innerHTML = "0 " + "Años";
     calculate_neptune.innerHTML = "0 " + "Años";
     calculate_pluto.innerHTML = "0 " + "Años";
+    //-----------------------------------------------------------------
     function calculate_age() {
         let age = parseInt(document.querySelector("#age").value);
-
         if (age <= 0) {
             alert("No puedes tener una edad negativa");
         } else if (age >= 110) {
@@ -46,41 +41,43 @@ window.addEventListener("load", function () {
             alert("!UY¡ Algo salió mal");
         } else {
             console.log("calculado....");
-            let period_eart = parseFloat(age * earth);
-
-
+            let a1 = age * mercury;
+            let a2 = age * venus;
+            let a3 = age * mars;
+            let a4 = age * jupiter;
+            let a5 = age * saturn;
+            let a6 = age * uranus;
+            let a7 = age * neptune;
+            let a8 = age * plute;
             //Edad marte
-            calculate_mercury.innerHTML = " Años";
+            calculate_mercury.innerHTML = a1.toFixed(3) + " Años";
             //Edad venus
-            calculate_venus.innerHTML =  + " Años";
+            calculate_venus.innerHTML = a2.toFixed(3) + " Años";
             //Edad Tierra
             calculate_earth.innerHTML = age + " Años";
             //Edad marte
-            calculate_mars.innerHTML =  " Años";
+            calculate_mars.innerHTML = a3.toFixed(3) + " Años";
             //Edad jupiter
-            calculate_jupiter.innerHTML = parseFloat(age/jupiter) + " Años";
+            calculate_jupiter.innerHTML = a4.toFixed(3) + " Años";
             //Edad Saturno
-            calculate_saturno =  + " Años";
+            calculate_saturno.innerHTML = a5.toFixed(3) + " Años";
             //Edad urano
-            calculate_urano =  + " Años";
+            calculate_urano.innerHTML = a6.toFixed(3) + " Años";
             //Edad Neptuno
-            calculate_neptune =  + " Años";
+            calculate_neptune.innerHTML = a7.toFixed(3) + " Años";
             //Edad pluton
-            calculate_pluto =  + " Años";
+            calculate_pluto.innerHTML = a8.toFixed(3) + " Años";
         }
 
     }
-
-
-
 
     bn_calculate.addEventListener("click", function () {
         calculate_age();
     });
 
-/*https://www.mediavida.com/foro/off-topic/calcula-tu-edad-diferentes-planetas-462109
-    https://www.exploratorium.edu/ronh/age/
+    /*https://www.mediavida.com/foro/off-topic/calcula-tu-edad-diferentes-planetas-462109
+        https://www.exploratorium.edu/ronh/age/
 
-*/ 
+    */
 
 });
