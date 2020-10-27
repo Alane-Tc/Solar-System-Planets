@@ -40,7 +40,11 @@ body{
 
  /*Cards*/
  
-
+/*hr*/
+hr {
+    height: 1px;
+    background-color: black;
+}
 
 /*Responsive*/
 @media (max-width: 575.98px) { 
