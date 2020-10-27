@@ -30,6 +30,7 @@ window.addEventListener("load", function () {
     calculate_urano.innerHTML = "0 " + "Años";
     calculate_neptune.innerHTML = "0 " + "Años";
     calculate_pluto.innerHTML = "0 " + "Años";
+    document.querySelector("#Resu_division").innerHTML = "0" + " Años";
     //-----------------------------------------------------------------
     function calculate_age() {
         let age = parseInt(document.querySelector("#age").value);
@@ -41,6 +42,7 @@ window.addEventListener("load", function () {
             alert("!UY¡ Algo salió mal");
         } else {
             console.log("calculado....");
+            document.querySelector("#Resu_division").innerHTML = age + " Años";
             let a1 = age * mercury;
             let a2 = age * venus;
             let a3 = age * mars;
