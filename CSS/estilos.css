@@ -39,7 +39,9 @@ body{
 }
 
  /*Cards*/
- 
+ .container-xl{
+     margin-top: 15px;
+ }
 /*hr*/
 hr {
     height: 1px;
@@ -72,6 +74,15 @@ hr {
         margin-bottom: 1rem;
         font-size: 18px;
     }
+
+    .container-xl {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        /*margin-right: auto;
+        margin-left: auto;*/
+        margin-top: 0px;
+    }
     
   }
  
@@ -85,6 +96,10 @@ hr {
         padding-left: 0px;  
         margin: 0px auto; 
         margin-bottom: 10px;
+     }
+
+     .container-xl {
+        margin-top: 0px;
      }
     
   } 
