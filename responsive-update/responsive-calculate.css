@@ -1,0 +1,177 @@
+/*Responsive*/
+@media (max-width: 575.98px) { 
+    /*body{background: rgb(204, 199, 199);}*/
+    
+    #title_main {
+        text-align: center!important;
+        color: black;
+        margin-top: 3px;
+        font-size: 25px;
+    }
+
+    .grid-container {
+        display: flow-root;
+        grid-gap: 50px;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+
+    #age {
+        width: 100%;
+        background: white;
+        padding: 6px;
+        border-radius: 8px;
+        border: 2px solid black;
+        font-size: 15px;
+    }
+
+    #calculate {
+        width: 90%;
+        background: rgb(48, 48, 150);
+        border: none;
+        padding: 6px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 0px auto;
+    }
+
+    #btn_clear {
+        width: 90%;
+        background: red;
+        border: none;
+        padding: 6px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .Box_age{
+        font-size: 22px;
+    }
+
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+   /*body{background: green;}*/
+
+   #title_main {
+    text-align: center!important;
+    color: black;
+    margin-top: 10px;
+    font-size: 30px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+
+    #age {
+        width: 100%;
+        background: white;
+        padding: 6px;
+        border-radius: 8px;
+        border: 2px solid black;
+        font-size: 15px;
+    }
+
+    #calculate {
+        width: 90%;
+        background: rgb(48, 48, 150);
+        border: none;
+        padding: 6px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 0px auto;
+    }
+
+    #btn_clear {
+        width: 90%;
+        background: red;
+        border: none;
+        padding: 6px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .Box_age{
+        font-size: 25px;
+    }
+
+   
+ } 
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /*body{background: yellow;}*/
+
+    .grid-container {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+
+    #age {
+        width: 90%;
+        background: white;
+        padding: 6px;
+        border-radius: 8px;
+        border: 2px solid black;
+        font-size: 15px;
+    }
+
+    #calculate {
+        width: 80%;
+        background: rgb(48, 48, 150);
+        border: none;
+        padding: 6px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 0px auto;
+    }
+
+    #btn_clear {
+        width: 80%;
+        background: red;
+        border: none;
+        padding: 6px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .Box_age{
+        font-size: 25px;
+    }
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   /*body{background: blue;}*/
+
+    .grid-container {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+
+    .Box_age{
+        font-size: 25px;
+    }
+   
+}
+
+
+@media (min-width: 1200px) { 
+  /* body{background: blueviolet;}*/
+  
+   
+}
