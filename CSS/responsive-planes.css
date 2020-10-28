@@ -1,0 +1,79 @@
+/*Responsive*/
+@media (max-width: 575.98px) { 
+    /*body{background: red;}*/
+    
+    .paragraph{
+        font-size: 18px;
+    }
+
+    #title-sub_main {
+        text-align: center!important;
+        color: black;
+        margin-top: -10px;
+        font-size: 22px;
+    }
+    
+    #title_main {
+        text-align: center!important;
+        color: black;
+        font-size: 30px;
+        margin-top: 3px;
+    }
+
+    .imagen .a_imagen {
+        padding: 3px;
+        background-color: #adb5bd;
+        border: 1px solid #cccc;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 5px 5px 5px black;
+        z-index: -10000;
+        float: none;
+        
+    }
+
+    .a_imagen{
+        display: block;
+        margin: 0px auto;
+        margin-bottom: 15px;
+    }
+
+
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+   /*body{background: green;}*/
+
+   
+ } 
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /*body{background: yellow;}*/
+
+  .paragraph {
+    font-size: 25px;
+    color: black;
+    }
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   /*body{background: blue;}*/
+
+   .paragraph {
+    font-size: 25px;
+    color: black;
+    }
+  
+}
+
+
+@media (min-width: 1200px) { 
+   /*body{background: blueviolet;}*/
+  
+   .paragraph {
+    font-size: 25px;
+    color: black;
+    }
+
+}
