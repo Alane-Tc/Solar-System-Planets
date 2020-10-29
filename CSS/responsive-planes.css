@@ -71,7 +71,7 @@
 @media (min-width: 1200px) { 
    /*body{background: blueviolet;}*/
   
-   .paragraph {
+   #paragraph {
     font-size: 20px;
     color: black;
     }
