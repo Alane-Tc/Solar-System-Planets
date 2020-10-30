@@ -5,7 +5,10 @@
 }
 
 body{
-    background: #ffffff;
+    background-image: url("../../Img/Background.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .m30{
@@ -48,7 +51,7 @@ body{
 
 #title_main {
     text-align: center!important;
-    color: black;
+    color: white;
     margin-top: 15px;
 }
 
@@ -69,9 +72,16 @@ body{
 
  .letras{
     font-size: 25px;
-    color: black;
+    color: white;
     text-shadow: 0px 0px 3px black;
  }
+
+ .Result {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
 
  #calculate{
     width: 30%;
@@ -128,9 +138,17 @@ border-radius: 8px;
   }
   
   .grid-item2 {
-    /*background-color: rgba(255, 255, 255, 0.8);*/
-    /*border: 1px solid  white; rgba(0, 0, 0, 0.8)*/
+    background-color: #8ecae6; /*rgba(255, 255, 255, 0.8);  #edf6f9*/
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    border-radius: 20px;
   }
+
+  footer {
+    color: white;
+}
+
+a:hover{
+    color: white;
+}

@@ -5,7 +5,10 @@
 }
 
 body{
-    background: #ffffff;
+    background-image: url("../Img/Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .m30{
@@ -18,7 +21,7 @@ body{
 
 #title_main {
     text-align: center!important;
-    color: black;
+    color: white;
     margin-top: 15px;
 }
 /*Nav*/
@@ -43,7 +46,21 @@ body{
 /*hr*/
 hr {
     height: 1px;
-    background-color: black;
+    background-color: white;
+}
+
+#references{
+    font-size: 22px;
+    color: white;
+    font: bold;
+}
+
+a:hover{
+    color: white;
+}
+
+footer{
+    color: white;
 }
 
 /*Responsive*/
