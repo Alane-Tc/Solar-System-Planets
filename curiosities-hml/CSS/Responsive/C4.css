@@ -1,0 +1,61 @@
+/*Responsive*/
+@media (max-width: 575.98px) { 
+    /*body{background: rgb(204, 199, 199);}*/
+    
+    #title_main {
+        font-size: 23px
+    }
+
+    .paragraph {
+        font-size: 17px;
+        color: black;
+    }
+
+    .title_sub {
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        margin-top: -5px;
+    }
+
+    .concepts{
+        font-size: 15px;
+    }
+  
+
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+   /*body{background: green;}*/
+   
+   #title_main {
+     font-size: 25px;
+    }
+
+    .concepts{
+        font-size: 18px;
+    }
+   
+
+ } 
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /*body{background: yellow;}*/
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* body{background: blue;}*/
+
+   
+}
+
+
+@media (min-width: 1200px) { 
+   /*body{background: blueviolet;}*/
+   
+   
+   
+}
