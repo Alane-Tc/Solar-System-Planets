@@ -109,3 +109,21 @@ body{
     color: #ef233c;
     border-color: #1e87f0;
 }
+
+
+/*Curiosidades 3*/
+.uk-accordion-title {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: #0077b6;
+    overflow: hidden;
+}
+
+/*Curiosidades 4*/
+.uk-button-default {
+    background-color: #ffd166;
+    color: #333;
+    border: 1px solid #e5e5e5;
+}
+
