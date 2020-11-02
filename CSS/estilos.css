@@ -6,7 +6,7 @@
 
 body{
     background-image: url("../Img/Background.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-attachment: fixed;
 }
@@ -98,6 +98,10 @@ footer{
         margin-left: auto;
         margin-top: 0px;
     }
+
+    #title_main {
+        font-size: 23px;
+    }
     
   }
  
@@ -116,7 +120,10 @@ footer{
      .container-xl {
         margin-top: 0px;
      }
-    
+
+     #title_main {
+        font-size: 25px;
+    }
   } 
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
