@@ -51,31 +51,46 @@ window.addEventListener("load", function () {
             let a6 = weight * uranus;
             let a7 = weight * neptune;
             let a8 = weight * plute;
-            //Edad marte
-            calculate_mercury.innerHTML = a1.toFixed(1);
-            //Edad venus
-            calculate_venus.innerHTML = a2.toFixed(1);
-            //Edad Tierra
-            calculate_earth.innerHTML = weight.toFixed(1);
-            //Edad marte
-            calculate_mars.innerHTML = a3.toFixed(1);
-            //Edad jupiter
-            calculate_jupiter.innerHTML = a4.toFixed(1);
-            //Edad Saturno
-            calculate_saturno.innerHTML = a5.toFixed(1);
-            //Edad urano
-            calculate_urano.innerHTML = a6.toFixed(1);
-            //Edad Neptuno
-            calculate_neptune.innerHTML = a7.toFixed(1);
-            //Edad pluton
-            calculate_pluto.innerHTML = a8.toFixed(1);
-        }
 
+            setTimeout(() => {
+                calculate_mercury.innerHTML = "Calculando..";
+                calculate_venus.innerHTML = "Calculando..";
+                calculate_earth.innerHTML = "Calculando..";
+                calculate_mars.innerHTML = "Calculando..";
+                calculate_jupiter.innerHTML = "Calculando..";
+                calculate_saturno.innerHTML = "Calculando..";
+                calculate_urano.innerHTML = "Calculando..";
+                calculate_neptune.innerHTML = "Calculando..";
+                calculate_pluto.innerHTML = "Calculando..";
+            }, 1000);
+
+            setTimeout(() => {
+                calculate_mercury.innerHTML = "Espere";
+                calculate_venus.innerHTML = "Espere";
+                calculate_earth.innerHTML = "Espere";
+                calculate_mars.innerHTML = "Espere";
+                calculate_jupiter.innerHTML = "Espere";
+                calculate_saturno.innerHTML = "Espere";
+                calculate_urano.innerHTML = "Espere";
+                calculate_neptune.innerHTML = "Espere";
+                calculate_pluto.innerHTML = "Espere";
+            }, 2000);
+
+            setTimeout(() => {
+                calculate_mercury.innerHTML = a1.toFixed(1);
+                calculate_venus.innerHTML = a2.toFixed(1);
+                calculate_earth.innerHTML = weight.toFixed(1);
+                calculate_mars.innerHTML = a3.toFixed(1);
+                calculate_jupiter.innerHTML = a4.toFixed(1);
+                calculate_saturno.innerHTML = a5.toFixed(1);
+                calculate_urano.innerHTML = a6.toFixed(1);
+                calculate_neptune.innerHTML = a7.toFixed(1);
+                calculate_pluto.innerHTML = a8.toFixed(1);
+            }, 3000);
+        }
     }
 
     bn_calculate.addEventListener("click", function () {
         calculate_weigth();
     });
-
-
 });
